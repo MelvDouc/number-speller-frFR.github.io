@@ -108,6 +108,3 @@ export default class NumberSpellerFrFR {
     return `${integerString}, ${leadingZeros + decimalString}`;
   }
 }
-
-var x = 3.14;
-console.log(NumberSpellerFrFR.spell(x));
