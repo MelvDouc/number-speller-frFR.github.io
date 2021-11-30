@@ -49,8 +49,6 @@ export default class NumberSpellerFrFR {
   private static spellOutInteger(n: number | bigint): string {
     const groups = n.toLocaleString("en-US").split(",");
     const { length } = groups;
-    console.log(length);
-
     const strArr: string[] = [];
 
     for (const [index, group] of groups.entries()) {
