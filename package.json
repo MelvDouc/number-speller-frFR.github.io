@@ -1,0 +1,10 @@
+{
+  "name": "number-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
